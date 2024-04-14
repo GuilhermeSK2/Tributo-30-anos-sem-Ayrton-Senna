@@ -17,7 +17,7 @@
  - Projeto construído durante o curso PROPROFISSÃO.
 
 ## Acesso
- [Clique aqui para acessar! :)](https://github.com/GuilhermeSK2/Tributo-Senna-30-Anos)
+ [Clique aqui para acessar! :)](https://tributo-senna-30-anos.vercel.app/)
 
 ## Tecnologias
 
