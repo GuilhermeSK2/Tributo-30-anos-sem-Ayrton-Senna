@@ -12,7 +12,7 @@
 ![preview](./Senna4.PNG)
 <br>
  
- - Página criada em forma de tributo ao nosso Tri-cmapeão Mundial de Fórmula 1 Ayrton Senna.
+ - Página criada em forma de tributo ao nosso Tri-campeão Mundial de Fórmula 1 Ayrton Senna.
  
  - Projeto construído durante o curso PROPROFISSÃO.
 
