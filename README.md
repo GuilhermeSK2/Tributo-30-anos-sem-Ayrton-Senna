@@ -23,6 +23,7 @@
 
 - HTML
 - CSS
+- JQuery
 - Git e Github
 
 ## Contato
