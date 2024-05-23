@@ -13,28 +13,30 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo">
+            <div class="container">
                 <img id="logosenna" src="./img/SennaLogo.png" alt="Logo Ayrton Senna">
             </div>
-            <ul class="menu">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#feitos">CARREIRA</a></li>
-                <li><a href="#mf1">A MELHOR VOLTA DA F1</a></li>
-                <li><a href="#insp">INSPIRAÇÃO</a></li>
-                <li><a href="https://institutoayrtonsenna.org.br/" target="_blank">SEU LEGADO <img
-                            src="./img/icone-link.svg" alt="Link para o site do instituto ayrton senna"></a>
-                </li>
-            </ul>
+            <button class="btn-menu bg-gradient"><img src="./img/bars.png" alt="barras"></button>
+            <nav class="menu">
+                <ul>
+                    <a class="btn-close">X</a>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#feitos">CARREIRA</a></li>
+                    <li><a href="#mf1">A MELHOR VOLTA DA F1</a></li>
+                    <li><a href="#insp">INSPIRAÇÃO</a></li>
+                    <li><a href="https://institutoayrtonsenna.org.br/" target="_blank">SEU LEGADO <img
+                                src="./img/icone-link.svg" alt="Link para o site do instituto ayrton senna"></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main class="home" id="home">
+    <main id="home">
         <div class="homeContent">
             <div class="titulo">
                 <h1>30 ANOS SEM SENNA</h1>
-
                 <h2>Há 30 anos em 1 de maio de 1994 perdiamos um dos maiores ídolos do esporte brasileiro!</h2>
-
                 <p>O Tri-campeão mundial de Fórmula 1 nos deixou após um acidente trágico no circuito de ímola na
                     itália, onde o mesmo perdeu o controle do carro, passou direto em uma curva e bateu em um muro de concreto.</p>
             </div>
@@ -55,7 +57,7 @@
                 <h2>THE BEST</h2>
 
                 <h3>SENNA FOI ATEMPORAL</h3>
-
+                
                 <ul>
                     <li>162 GPs Disputados</li>
                     <li>3 Títulos mundiais (1989, 1990 e 1991)</li>
@@ -96,7 +98,7 @@
         </div>
     </section>
 
-    <section class="inspiração" id="insp">
+    <section class="inspiracao" id="insp">
         <div class="mensagem">
 
             <img id="sennaR" src="./img/Sennarefletindo.jpg" alt="Ayrton senna olhando para o seu capacete">
@@ -104,8 +106,6 @@
             <div class="exemploD">
 
                 <h2>UM EXEMPLO DE DETERMINAÇÃO</h2>
-
-                <br>
 
                 <p>"No que diz respeito ao empenho, ao compromisso, ao esforço, à dedicação, não existe meio termo. Ou você faz uma coisa bem feita ou não faz."</p>
 
@@ -123,6 +123,18 @@
             </div>
         </div>
     </footer>
+
+    <!--JQuery-->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function () {
+            $(".menu").show();
+        });
+        $(".btn-close").click(function () {
+            $(".menu").hide();
+        });
+    </script>
 </body>
 
 </html>
