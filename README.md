@@ -13,8 +13,6 @@
 <br>
  
  - Página criada em forma de tributo ao nosso Tri-campeão Mundial de Fórmula 1 Ayrton Senna.
- 
- - Projeto construído durante o curso PROPROFISSÃO.
 
 ## Acesso
  [Clique aqui para acessar! :)](https://tributo-senna-30-anos.vercel.app/)
